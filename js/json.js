@@ -25,7 +25,7 @@ var defaults = {
     object: {
         lockScalingX: false,
         lockScalingY: false,
-        hasControls: false,
+        hasControls: true,
         shape: {
             left: 0,
             top: 0,
@@ -55,7 +55,7 @@ var defaults = {
         },
 
         container: {
-            show: true,
+            show: false,
             shape: 'circle',
             crashPath: [],
             scaleX: 1,
